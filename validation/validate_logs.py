@@ -23,8 +23,6 @@ def validate_log_entry(log: dict[str, Any]) -> bool:
     try:
         # Try to parse the timestamp
         datetime.fromisoformat(log["@timestamp"])
-        date = datetime.fromisoformat("2025-06-22 13:57:32")
-        print(date)
 
         # Validate status (should be integer)
         if not isinstance(log["status"], int):

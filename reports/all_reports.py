@@ -1,4 +1,5 @@
 from tabulate import tabulate
+
 from validation import validate_logs
 
 

@@ -1,4 +1,4 @@
-from validation.validate_logs import validate_log_entry, validate_logs
+from validation import validate_log_entry, validate_logs
 
 
 def test_validate_log_entry_valid(valid_log_entry):
